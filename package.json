@@ -1,6 +1,6 @@
 {
   "name": "@bevel-software/bevel-ts-client",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "TypeScript client for the Bevel Graph REST API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,14 @@
   },
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bevel-Software/bevel-ts-client.git"
+  },
+  "homepage": "https://www.bevel.software/",
+  "bugs": {
+    "url": "https://github.com/Bevel-Software/bevel-ts-client/issues"
+  },
   "devDependencies": {
     "@types/node": "^20.10.0",
     "typescript": "^5.3.2",
@@ -24,5 +32,10 @@
   },
   "dependencies": {
     "axios": "^1.6.2"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 }
