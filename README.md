@@ -1,6 +1,6 @@
 # Bevel TypeScript Client
 
-[![npm version](https://img.shields.io/npm/v/bevel-ts-client.svg)](https://www.npmjs.com/package/@bevel-software/bevel-ts-client)
+[![npm version](https://img.shields.io/npm/v/@bevel-software/bevel-ts-client.svg)](https://www.npmjs.com/package/@bevel-software/bevel-ts-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A strongly-typed TypeScript client library for interacting with the [Bevel](https://marketplace.visualstudio.com/items?itemName=bevel-software.bevel) Graph REST API. This library provides programmatic access to Bevel's powerful code visualization, analysis, and AI features.
