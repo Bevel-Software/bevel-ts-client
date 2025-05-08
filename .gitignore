@@ -43,5 +43,5 @@ coverage/
 .eslintcache
 .npm
 
-.bevel
+.bevel/do_not_share
 *.tgz

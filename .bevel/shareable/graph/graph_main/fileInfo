@@ -1,0 +1,256 @@
+{
+  "fileInfos" : [ {
+    "path" : "dist\\api\\businessContextApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 524707444,
+      "lastModified" : 1746708512721
+    },
+    "linesOfCode" : 33
+  }, {
+    "path" : "dist\\api\\businessContextApi.js",
+    "modificationInfo" : {
+      "contentHash" : 965150776,
+      "lastModified" : 1746708512719
+    },
+    "linesOfCode" : 55
+  }, {
+    "path" : "dist\\api\\chatApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -1336746579,
+      "lastModified" : 1746708512715
+    },
+    "linesOfCode" : 16
+  }, {
+    "path" : "dist\\api\\chatApi.js",
+    "modificationInfo" : {
+      "contentHash" : 1583207635,
+      "lastModified" : 1746708512714
+    },
+    "linesOfCode" : 29
+  }, {
+    "path" : "dist\\api\\codeLensApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 795324477,
+      "lastModified" : 1746624766943
+    },
+    "linesOfCode" : 15
+  }, {
+    "path" : "dist\\api\\codeLensApi.js",
+    "modificationInfo" : {
+      "contentHash" : 1086210100,
+      "lastModified" : 1746624766943
+    },
+    "linesOfCode" : 24
+  }, {
+    "path" : "dist\\api\\connectionsApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 1728030301,
+      "lastModified" : 1746624766917
+    },
+    "linesOfCode" : 84
+  }, {
+    "path" : "dist\\api\\connectionsApi.js",
+    "modificationInfo" : {
+      "contentHash" : -743310317,
+      "lastModified" : 1746624766917
+    },
+    "linesOfCode" : 146
+  }, {
+    "path" : "dist\\api\\diagramApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 1202353268,
+      "lastModified" : 1746624766923
+    },
+    "linesOfCode" : 16
+  }, {
+    "path" : "dist\\api\\diagramApi.js",
+    "modificationInfo" : {
+      "contentHash" : 241318768,
+      "lastModified" : 1746624766920
+    },
+    "linesOfCode" : 25
+  }, {
+    "path" : "dist\\api\\graphApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 484742674,
+      "lastModified" : 1746624766941
+    },
+    "linesOfCode" : 19
+  }, {
+    "path" : "dist\\api\\graphApi.js",
+    "modificationInfo" : {
+      "contentHash" : 1359494830,
+      "lastModified" : 1746624766940
+    },
+    "linesOfCode" : 33
+  }, {
+    "path" : "dist\\api\\nodeApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -306657902,
+      "lastModified" : 1746708512698
+    },
+    "linesOfCode" : 88
+  }, {
+    "path" : "dist\\api\\nodeApi.js",
+    "modificationInfo" : {
+      "contentHash" : -1541189773,
+      "lastModified" : 1746624766904
+    },
+    "linesOfCode" : 158
+  }, {
+    "path" : "dist\\api\\projectApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : 25889567,
+      "lastModified" : 1746708512725
+    },
+    "linesOfCode" : 37
+  }, {
+    "path" : "dist\\api\\projectApi.js",
+    "modificationInfo" : {
+      "contentHash" : -1415387897,
+      "lastModified" : 1746708512724
+    },
+    "linesOfCode" : 73
+  }, {
+    "path" : "dist\\api\\serverApi.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -1467009899,
+      "lastModified" : 1746624766947
+    },
+    "linesOfCode" : 12
+  }, {
+    "path" : "dist\\api\\serverApi.js",
+    "modificationInfo" : {
+      "contentHash" : 178397735,
+      "lastModified" : 1746624766946
+    },
+    "linesOfCode" : 20
+  }, {
+    "path" : "dist\\client.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -443546015,
+      "lastModified" : 1746624766954
+    },
+    "linesOfCode" : 41
+  }, {
+    "path" : "dist\\client.js",
+    "modificationInfo" : {
+      "contentHash" : 1464738335,
+      "lastModified" : 1746624766953
+    },
+    "linesOfCode" : 58
+  }, {
+    "path" : "dist\\index.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -1856475878,
+      "lastModified" : 1746624766960
+    },
+    "linesOfCode" : 11
+  }, {
+    "path" : "dist\\index.js",
+    "modificationInfo" : {
+      "contentHash" : 1632003334,
+      "lastModified" : 1746624766959
+    },
+    "linesOfCode" : 42
+  }, {
+    "path" : "dist\\types\\index.d.ts",
+    "modificationInfo" : {
+      "contentHash" : -122565170,
+      "lastModified" : 1746708512685
+    },
+    "linesOfCode" : 366
+  }, {
+    "path" : "dist\\types\\index.js",
+    "modificationInfo" : {
+      "contentHash" : 249620858,
+      "lastModified" : 1746624766882
+    },
+    "linesOfCode" : 65
+  }, {
+    "path" : "src\\api\\businessContextApi.ts",
+    "modificationInfo" : {
+      "contentHash" : 771452178,
+      "lastModified" : 1746708171950
+    },
+    "linesOfCode" : 80
+  }, {
+    "path" : "src\\api\\chatApi.ts",
+    "modificationInfo" : {
+      "contentHash" : -917921609,
+      "lastModified" : 1746708181027
+    },
+    "linesOfCode" : 34
+  }, {
+    "path" : "src\\api\\codeLensApi.ts",
+    "modificationInfo" : {
+      "contentHash" : 319432939,
+      "lastModified" : 1746624591769
+    },
+    "linesOfCode" : 24
+  }, {
+    "path" : "src\\api\\connectionsApi.ts",
+    "modificationInfo" : {
+      "contentHash" : 1286872866,
+      "lastModified" : 1746624522560
+    },
+    "linesOfCode" : 171
+  }, {
+    "path" : "src\\api\\diagramApi.ts",
+    "modificationInfo" : {
+      "contentHash" : -408895508,
+      "lastModified" : 1746624532486
+    },
+    "linesOfCode" : 30
+  }, {
+    "path" : "src\\api\\graphApi.ts",
+    "modificationInfo" : {
+      "contentHash" : -127015778,
+      "lastModified" : 1746624582721
+    },
+    "linesOfCode" : 31
+  }, {
+    "path" : "src\\api\\nodeApi.ts",
+    "modificationInfo" : {
+      "contentHash" : -847306078,
+      "lastModified" : 1746697029040
+    },
+    "linesOfCode" : 179
+  }, {
+    "path" : "src\\api\\projectApi.ts",
+    "modificationInfo" : {
+      "contentHash" : 1253641545,
+      "lastModified" : 1746708196435
+    },
+    "linesOfCode" : 81
+  }, {
+    "path" : "src\\api\\serverApi.ts",
+    "modificationInfo" : {
+      "contentHash" : -545060718,
+      "lastModified" : 1746624599884
+    },
+    "linesOfCode" : 17
+  }, {
+    "path" : "src\\client.ts",
+    "modificationInfo" : {
+      "contentHash" : 545224567,
+      "lastModified" : 1746624475710
+    },
+    "linesOfCode" : 67
+  }, {
+    "path" : "src\\index.ts",
+    "modificationInfo" : {
+      "contentHash" : 1768673291,
+      "lastModified" : 1746631122353
+    },
+    "linesOfCode" : 16
+  }, {
+    "path" : "src\\types\\index.ts",
+    "modificationInfo" : {
+      "contentHash" : -1739914674,
+      "lastModified" : 1746695849431
+    },
+    "linesOfCode" : 413
+  } ],
+  "appVersion" : "1.1.0"
+}
