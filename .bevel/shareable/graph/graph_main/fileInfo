@@ -177,10 +177,10 @@
   }, {
     "path" : "src\\api\\chatApi.ts",
     "modificationInfo" : {
-      "contentHash" : -917921609,
-      "lastModified" : 1746708181027
+      "contentHash" : 597818722,
+      "lastModified" : 1746716663339
     },
-    "linesOfCode" : 34
+    "linesOfCode" : 88
   }, {
     "path" : "src\\api\\codeLensApi.ts",
     "modificationInfo" : {
@@ -252,5 +252,5 @@
     },
     "linesOfCode" : 413
   } ],
-  "appVersion" : "1.1.0"
+  "appVersion" : "1.2.0"
 }
