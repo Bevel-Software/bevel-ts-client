@@ -1,5 +1,5 @@
 import { AxiosInstance } from 'axios';
-import { Node, NodeResponseDto, NodeDescriptionDto } from '../types';
+import { Node, NodeDescriptionDto } from '../types';
 /**
  * API client for working with Nodes in the Bevel Graph
  */
@@ -51,7 +51,7 @@ export declare class NodeApi {
      * @param filePath File path where the node is defined
      * @param lineNumber Line number where the node is defined (optional)
      */
-    findNodeByName(projectPath: string, nodeName: string, filePath: string, lineNumber?: number): Promise<NodeResponseDto>;
+    findNodeByName(projectPath: string, nodeName: string, filePath: string, lineNumber?: number): Promise<Node>;
     /**
      * Count functions in the project
      * @param projectPath Path to the project

@@ -278,6 +278,7 @@ export interface NodeResponseDto {
     displayName: string;
     nodeType: NodeType;
     description?: string;
+    simpleName: string;
 }
 /**
  * Connection response DTO

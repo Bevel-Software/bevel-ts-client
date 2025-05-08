@@ -103,8 +103,8 @@ export class NodeApi {
     nodeName: string, 
     filePath: string, 
     lineNumber?: number
-  ): Promise<NodeResponseDto> {
-    const response = await this.axios.get<NodeResponseDto>('/api/graph/nodes/find-by-name', {
+  ): Promise<Node> {
+    const response = await this.axios.get<Node>('/api/graph/nodes/find-by-name', {
       params: { projectPath, nodeName, filePath, lineNumber }
     });
     return response.data;

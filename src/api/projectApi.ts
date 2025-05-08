@@ -42,22 +42,19 @@ export class ProjectApi {
   /**
    * Analyze a project
    * @param projectPath Path to the project
-   * @param selectedLLM The LLM type to use
    * @param fileToAdd Optional file to add to the analysis
    * @param fileToDelete Optional file to delete from the analysis
    * @param fileToUpdate Optional file to update in the analysis
    */
   async analyzeProject(
     projectPath: string,
-    selectedLLM: LLMType,
     fileToAdd?: string,
     fileToDelete?: string,
     fileToUpdate?: string
   ): Promise<void> {
     await this.axios.get('/api/project/analyze', {
       params: { 
-        projectPath, 
-        selectedLLM,
+        projectPath,
         fileToAdd,
         fileToDelete,
         fileToUpdate
@@ -68,14 +65,12 @@ export class ProjectApi {
   /**
    * Download a model for a project
    * @param projectPath Path to the project
-   * @param selectedLLM The LLM type to use
    */
   async downloadModel(
     projectPath: string,
-    selectedLLM: LLMType
   ): Promise<any> {
     const response = await this.axios.get('/api/model/download', {
-      params: { projectPath, selectedLLM },
+      params: { projectPath },
       responseType: 'stream',
       headers: {
         'Accept': 'text/event-stream'

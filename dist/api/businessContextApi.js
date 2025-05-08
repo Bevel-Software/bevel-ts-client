@@ -12,11 +12,10 @@ class BusinessContextApi {
      * Get business context for a node
      * @param projectPath Path to the project
      * @param nodeName Name of the node
-     * @param selectedLLM The LLM type to use
      */
-    async getBusinessContext(projectPath, nodeName, selectedLLM) {
+    async getBusinessContext(projectPath, nodeName) {
         const response = await this.axios.get('/api/business-context', {
-            params: { projectPath, nodeName, selectedLLM }
+            params: { projectPath, nodeName }
         });
         return response.data;
     }
@@ -24,22 +23,20 @@ class BusinessContextApi {
      * Get business context for a node without using the graph
      * @param projectPath Path to the project
      * @param nodeName Name of the node
-     * @param selectedLLM The LLM type to use
      */
-    async getBusinessContextWithoutGraph(projectPath, nodeName, selectedLLM) {
+    async getBusinessContextWithoutGraph(projectPath, nodeName) {
         const response = await this.axios.get('/api/business-context/without-graph', {
-            params: { projectPath, nodeName, selectedLLM }
+            params: { projectPath, nodeName }
         });
         return response.data;
     }
     /**
      * Generate business context for all nodes
      * @param projectPath Path to the project
-     * @param selectedLLM The LLM type to use
      */
-    async generateAllBusinessContext(projectPath, selectedLLM) {
+    async generateAllBusinessContext(projectPath) {
         await this.axios.get('/api/business-context/generate-all', {
-            params: { projectPath, selectedLLM }
+            params: { projectPath }
         });
     }
     /**
