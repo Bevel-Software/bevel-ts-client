@@ -97,6 +97,13 @@
       "lastModified" : 1746716761956
     },
     "linesOfCode" : 366
+  }, {
+    "path" : "src\\types\\index.ts",
+    "modificationInfo" : {
+      "contentHash" : 1357389495,
+      "lastModified" : 1747298097250
+    },
+    "linesOfCode" : 414
   } ],
-  "appVersion" : "1.2.0"
+  "appVersion" : "1.2.1"
 }
